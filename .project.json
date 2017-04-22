@@ -13,7 +13,8 @@
     "excludedFiles": [
       "test.html"
     ],
-    "buildRequired": true
+    "buildRequired": true,
+    "lastBuildDateTime": "Sat, 22 Apr 2017 09:41:54 GMT"
   },
   "dataBinding": {
     "/webapp/view/App.view.xml": {
@@ -84,5 +85,10 @@
         }
       }
     ]
+  },
+  "hcpdeploy": {
+    "account": "p1942518599trial",
+    "name": "te2016",
+    "lastVersionWeTriedToDeploy": "1.0.0"
   }
 }

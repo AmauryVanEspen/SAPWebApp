@@ -16,7 +16,21 @@ sap.ui.define([
 				}
 
 				return parseFloat(sValue).toFixed(2);
-			}
+			},
+		  /**
+	      * Formats an address to a static google maps image
+	      * @public
+	      * @param {string} sBuilding the building number
+	      * @param {string} sStreet the street
+	      * @param {string} sZIP the postal code
+	      * @param {string} sCity the city
+	      * @returns {string} sValue a google maps URL that can be bound to an image
+	      */
+	    formatMapUrl: function(sBuilding, sStreet, sZIP, sCity) {
+	      return "/GoogleMaps/staticmap?zoom=16&size=400x400&markers="
+	        + jQuery.sap.encodeURL(sBuilding +" "+ sStreet + ", " + sZIP +  " " + sCity );
+	    }
+
 		};
 
 	}

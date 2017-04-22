@@ -7,6 +7,8 @@
 		"i18n": "i18n/i18n.properties",
 		"title": "{{appTitle}}",
 		"description": "{{appDescription}}",
+		"ach": "ach",
+		"resources": "resources.json",
 		"applicationVersion": {
 			"version": "1.0.0"
 		},
@@ -146,5 +148,9 @@
 				}
 			}
 		}
+	},
+	"sap.platform.hcp": {
+		"uri": "webapp",
+		"_version": "1.1.0"
 	}
 }
